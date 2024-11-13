@@ -1,0 +1,34 @@
+{
+  "name": "tiny-cache",
+  "version": "0.0.1",
+  "description": "A tiny utility to better manage your cache!",
+  "main": "build/index.mjs",
+  "scripts": {
+    "test": "node --test src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abrifq/tiny-cache.git"
+  },
+  "keywords": [
+    "tiny",
+    "cache",
+    "revalidation",
+    "component"
+  ],
+  "author": "Arda \"Abrifq\" Aydın <2200656005@nku.edu.tr> (https://github.com/Abrifq)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Abrifq/tiny-cache/issues"
+  },
+  "homepage": "https://github.com/Abrifq/tiny-cache#readme",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "files": [
+    "build/*",
+    "README.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2023",
+        "checkJs": true,
+        "module": "Preserve",
+        "moduleDetection": "force",
+        "isolatedModules": true,
+        "outDir": "build",
+        "sourceMap": true,
+        "declaration": true,
+        "verbatimModuleSyntax": true,
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "lib": [
+            "ES2023",
+            "DOM"
+        ],
+        "removeComments": true
+    },
+    "include": [
+        "src/**.mjs"
+    ],
+    "exclude": [
+        "src/**.test.mjs"
+    ]
+}
